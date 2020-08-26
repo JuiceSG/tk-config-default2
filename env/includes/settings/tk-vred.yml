@@ -62,4 +62,6 @@ settings.tk-vred.project:
     tk-multi-workfiles2: "@settings.tk-multi-workfiles2.vred"
   menu_favourites:
   - {app_instance: tk-multi-workfiles2, name: File Open...}
+  run_at_startup:
+  - {app_instance: tk-multi-shotgunpanel, name: ''}
   location: "@engines.tk-vred.location"
